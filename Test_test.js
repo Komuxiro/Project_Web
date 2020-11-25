@@ -231,3 +231,46 @@ var carSeller1 = {  Посчитаем дисконт при продаже ав
 }
 
 console.log(carSeller1.discountCalculation(2014)); */
+
+/*  Метод this
+var carSeller1 = {  
+    firstName:'jack',
+    lastName: 'white',
+    regYear: 2017,
+    hasDiscount: true,
+    discount:0,
+    discountCalculation: function(){
+        var discount;
+        var numberOfYears = 2020 - this.regYear;
+        if(numberOfYears <= 2) {
+            discount =0;
+        }
+        else if ((numberOfYears > 2) && 
+        (numberOfYears <= 5)){
+            discount = 5 ;
+        }
+        else if (numberOfYears >5) {
+            discount = 15;
+        }
+        this.discount = discount;
+    }
+}
+carSeller1.discountCalculation();
+
+console.log(carSeller1); */
+
+/* dom selectors*/
+
+document.getElementById('header').innerHTML='New Vasuki';
+
+var x = document.getElementsByClassName('first');
+console.log(x[1].innerHTML);
+
+console.log(document.getElementsByTagName('li')[3].innerHTML);
+console.log(document.getElementsByTagName('head')[0]);
+
+console.log(document.querySelector('#header').innerHTML);
+console.log(document.querySelector('.twoo').innerHTML);
+
+console.log(document.querySelectorAll('li')[2].innerHTML);
+console.log(document.querySelectorAll('.first').innerHTML);
