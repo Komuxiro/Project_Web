@@ -259,7 +259,7 @@ carSeller1.discountCalculation();
 
 console.log(carSeller1); */
 
-/* dom selectors*/
+/* dom selectors
 
 document.getElementById('header').innerHTML='New Vasuki';
 
@@ -273,4 +273,4 @@ console.log(document.querySelector('#header').innerHTML);
 console.log(document.querySelector('.twoo').innerHTML);
 
 console.log(document.querySelectorAll('li')[2].innerHTML);
-console.log(document.querySelectorAll('.first').innerHTML);
+console.log(document.querySelectorAll('.first').innerHTML); */
