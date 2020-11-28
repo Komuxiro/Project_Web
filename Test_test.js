@@ -274,3 +274,45 @@ console.log(document.querySelector('.twoo').innerHTML);
 
 console.log(document.querySelectorAll('li')[2].innerHTML);
 console.log(document.querySelectorAll('.first').innerHTML); */
+
+/* Изменение стилей 
+var li3 = document.getElementById('thirdElement');
+li3.style.color = 'red';
+li3.style.fontSize = '20px';
+li3.style.background = 'blue'; */
+
+/*  Изменение атрибутов
+var image = document.getElementsByTagName('img');
+image[0].getAttribute('src');
+image[0].setAttribute('src', 'images/Cinnabom.jpg');
+
+var link = document.getElementsByTagName('a');
+link[0].getAttribute('href');
+console.log(link);
+link[0].setAttribute('href', 'http://mail.ru');  */
+
+/* События DOM
+var h2 = document.getElementById('header');
+console.log(h2.innerHTML);
+
+h2.addEventListener('click', function() {
+    this.style.background = 'red';
+});
+h2.addEventListener('click', function() {
+    this.style.color = 'green';
+});
+
+var liElements = document.querySelectorAll('li');
+console.log(liElements);
+for(var i = 0; i < liElements.length; i++){
+    liElements[i].addEventListener('click', function(){
+        this.style.color = 'red';
+    })
+}
+
+// либо такая запись
+var changeLoColor = function(){
+    this.style.color = 'blue';
+}
+for(var i = 0; i < liElements.length; i++){
+    liElements[i].addEventListener('click', changeLoColor) */
