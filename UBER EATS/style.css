@@ -1,0 +1,229 @@
+body{
+    width: 1124px;
+    height: 2100px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 50px;
+}
+
+#header-logo{
+    font-weight: bold;
+    margin-left: 45px;
+   
+}
+
+.logo1 {
+    color: 0,0,0,1;
+}
+
+.logo2 {
+    color: green;
+}
+
+#header-signIn{
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+#header-basket{
+    margin-right: 45px;
+
+}
+
+.main-search {
+    display: flex;
+    align-self: center;
+    margin-left: 45px;
+}
+
+form.main-search input[type=text] {    
+    padding: 1px;
+    font-size: 12px;
+    border: 1px solid #fffcfc;    
+    width: 94%;
+    background: #f1f1f1;
+    opacity: 0.5;
+    
+}
+
+.restaurant-header{
+    margin-left: 45px;
+}
+
+.gallery{
+    display: flex;        
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    height: 100%;
+    margin-left: 45px;
+}
+
+.card-1{
+    width: 33%;
+    
+}
+
+.card-2{
+    width: 33%;
+    
+}
+
+.card-3{
+    width: 33%;
+    
+}
+
+.card-4{
+    width: 33%;
+    
+}
+
+.card-5{
+    width: 33%;
+    
+}
+
+.card-6{
+    width: 33%;
+    
+}
+
+.card-7{
+    width: 33%;
+    
+}
+
+.card-8{
+    width: 33%;
+    
+}
+
+.card-9{
+    width: 33%;
+    
+}
+
+.footer{
+       
+    background-color: #262626;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;  
+    word-spacing: 55px;
+    height: 50px;    
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+.XMLID_234_ { 
+    margin-top: 15px;   
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.XMLID_224_ {
+    margin-top: 15px;    
+    letter-spacing: 3px;
+    color: green;
+
+}
+
+.information {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+    margin-left: 50px;
+    margin-right: 50px; 
+    height: 100%;
+
+}
+
+.footer-language {
+    align-self: flex-start;
+}
+
+.footer-social { 
+    line-height: 2.5;
+    color: #FFFFFF;
+}
+
+.hashtag {
+    color: green;
+}
+
+.information-block1 {
+    align-self: flex-start;
+    margin-left: 110px;
+    color: #FFFFFF;
+}
+
+.information-block2 {
+    align-self: flex-start;
+    margin-right: 230px;
+    color: #FFFFFF;
+}
+
+.footer_aps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+
+#apstore {
+    align-self: center;
+    margin-left: 400px;
+    
+}
+
+#googlePlay {
+    align-self: center;
+    margin-right: 380px;
+}
+
+.footer-nda {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 150px;
+    height: 80px;
+}
+
+.footer-technologo {
+    margin-bottom: 20px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.footer-pdn {
+    margin-bottom: 20px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.footer-agreement {
+    margin-bottom: 20px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.topbutton {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    margin-right: 20px;          
+}
+
+#btn-up {
+    width: 80px;
+    height: 80px;
+}
