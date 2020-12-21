@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #714fec;
+}
+
+.carousel-inner {
+    height: 70vh;
+}
+
+.carousel-caption {
+    top: 70%;
+    transform: translateY(-50%);
+    background: rgba(113, 79, 236, 0.4);
+    bottom: initial;
+}
+
+.card {
+    margin: 50px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.img-fluid {
+    height: 30vh;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #9c85ee;
+    color: white;
+    padding: 3%;
+}
+
+.fab {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.fab:hover {
+    color: gray;    
+}
